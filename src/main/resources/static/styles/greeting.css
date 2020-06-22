@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(241, 137, 10);
+}
+.form {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#btn:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+#btn {
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+#field {
+    padding: 5px;
+    width: 214px;
+    border: none;
+}
+#nav {
+    margin-bottom: -20px;
+    margin-top: 20px;
+    text-align: right;
+}
+#nav button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 102, 255);
+    margin-right: 10px;
+    color: white;
+}
+#nav button:hover {
+    background-color: rgb(1, 62, 155);
+}

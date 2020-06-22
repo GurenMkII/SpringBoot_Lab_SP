@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(43, 255, 0);
+}
+div {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#nav {
+    margin-bottom: -20px;
+    margin-top: 20px;
+    text-align: right;
+}
+#nav button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(247, 0, 255);
+    margin-right: 10px;
+    color: white;
+}
+#nav button:hover {
+    background-color: rgb(87, 0, 90);
+}
+img {
+    margin-left: 10px;
+    margin-right: 10px;
+}

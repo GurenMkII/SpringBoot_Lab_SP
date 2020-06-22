@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+.form {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form button {
+    border: none;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(122, 55, 0);
+    color: white;
+}
+
+.form button:hover {
+    background-color: rgb(218, 98, 0);
+}

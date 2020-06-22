@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/styles/greeting.css">
+</head>
+<body>
+
+    <div id="nav">
+
+        <a href="/index.html"><button>HOME</button></a>
+
+    </div>
+    
+    <div class="form">
+        <h5>Here we will perform federal background check <br> and determine if access can be granted.</h5>
+        
+        <form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
+            <input id="field" type="text" required placeholder="ENTER YOUR NAME" th:field="*{name}"><br>
+            <input id="btn" type="submit" value="Submit" /> <input id="btn" type="reset" value="Reset" />
+        </form>
+
+    </div>
+
+</body>
+</html>
